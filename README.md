@@ -125,7 +125,8 @@ La ubicación geográfica asociada a la dirección IP parece estar en las áreas
 
 ## **nmap**
 
-![Untitled](Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled%208.png)
+![image](https://github.com/amanda1686/Auditoria/assets/80174591/4997b5bf-b827-4ed2-89a6-e293d330190e)
+
 
 - **Dirección IP escaneada**: 216.24.57.4
     
@@ -148,8 +149,6 @@ La ubicación geográfica asociada a la dirección IP parece estar en las áreas
     
     Además, se menciona que hay “996 puertos TCP filtrados (sin respuesta)”. Esto podría indicar que estos puertos están siendo bloqueados por un firewall u otra medida de seguridad.
     
-    ![Untitled](Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled%209.png)
-    
 - **Latencia del host**: 0.0016 segundos (0.0016s latency)
 - **Tiempo de escaneo**: El escaneo se completó en 4.79 segundos.
 
@@ -158,17 +157,17 @@ Se utilizó TheHarvester para recolectar información centrada en subdominios, d
 
 Se realizaron búsquedas en varios motores de búsqueda y fuentes de información, pero no se encontraron subdominios, direcciones de correo electrónico o hosts haciendo uso de esta herramienta.
 
-![Untitled](Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled%2010.png)
+![image](https://github.com/amanda1686/Auditoria/assets/80174591/15f5cf39-74d1-47f5-b65e-1f7c13b041ab)
 
 ### **OWASP amass**
 
-![Untitled](Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled%2011.png)
+![image](https://github.com/amanda1686/Auditoria/assets/80174591/809abaea-4614-4315-bd06-b85bd9ec07f4)
 
-![Untitled](Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled%2012.png)
+![image](https://github.com/amanda1686/Auditoria/assets/80174591/58492423-3a6b-45ad-870d-f4621f1ae4e5)
 
 **subbrute.py.** Para obtener los subdominios
 
-![Untitled](Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled%2013.png)
+![image](https://github.com/amanda1686/Auditoria/assets/80174591/9f332900-06ff-471a-9cca-c7c94a68d870)
 
 # Owasp Zap
 
@@ -176,7 +175,7 @@ OWASP (Open Web Application Security Project) es una comunidad global que se cen
 
 - **Ajax Spider**
 
-![Untitled](Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled%2014.png)
+![image](https://github.com/amanda1686/Auditoria/assets/80174591/3e09bc0d-e93d-41f7-acfc-2fbf5ca33eeb)
 
 Informe de Análisis de Escaneo:
 
@@ -199,14 +198,14 @@ El escaneo realizado con OWASP ZAP proporcionó información valiosa sobre posib
 
 - **Spider de OWASP ZAP**
     
-    ![Untitled](Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled%2015.png)
-    
+    ![image](https://github.com/amanda1686/Auditoria/assets/80174591/362c7112-1cd5-41f6-bb26-b92aa9d1098f)
 
+  
 El Spider de OWASP ZAP es una herramienta de escaneo estático que explorar páginas web de forma exhaustiva, identificando recursos y posibles vulnerabilidades. Se enfoca en seguir enlaces estáticos dentro del código HTML para mapear la estructura de la aplicación. Es eficaz para identificar recursos estáticos y páginas accesibles a través de enlaces convencionales. Sin embargo, no es tan efectivo para aplicaciones web que utilizan tecnologías AJAX u otras técnicas de actualización dinámica de contenido. A diferencia del AJAX Spider, no puede manejar correctamente las interacciones dinámicas entre el cliente y el servidor. Es una herramienta útil para el análisis de aplicaciones web estáticas y puede integrarse con otras funciones de OWASP ZAP para proporcionar un análisis completo de la seguridad.
 
 Informe de Escaneo de OWASP ZAP:
 
-Fecha del Escaneo: [Fecha actual del escaneo]
+Fecha del Escaneo: 29/04/2024
 
 Herramienta Utilizada: OWASP ZAP (Zed Attack Proxy)
 
@@ -226,7 +225,7 @@ El escaneo realizado proporcionó una visión general de la estructura y los rec
 
 - **Alertas**
 
-![Untitled](Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled%2016.png)
+![image](https://github.com/amanda1686/Auditoria/assets/80174591/d8a420c5-ec0c-477a-bc3b-d5a4db561138)
 
 El informe del escaneo realizado con OWASP ZAP muestra análisis detallados de dos sitios: "[https://apis.google.com](https://apis.google.com/)" y "[https://abooks.onrender.com](https://abooks.onrender.com/)". Se encontraron un total de 10 alertas, distribuidas en distintos niveles de riesgo y confianza.
 
@@ -246,7 +245,7 @@ Para ampliar información sobre el informe realizado por OwasZap en el siguiente
 
 Burp Suite es una suite de herramientas de prueba de penetración utilizada principalmente para evaluar la seguridad de aplicaciones web. Ofrece funcionalidades como el proxy HTTP/S, el escaneo de vulnerabilidades, la intrusión de datos, y más. Permite interceptar y modificar el tráfico entre el navegador y el servidor para analizar las solicitudes y respuestas HTTP. Su función de Spider explora automáticamente la aplicación web para mapear su estructura y encontrar posibles puntos de entrada. La herramienta de escaneo identifica vulnerabilidades como inyecciones SQL, XSS y CSRF, proporcionando informes detallados. Burp Suite también incluye extensiones personalizables que permiten ampliar su funcionalidad según las necesidades del usuario. Es ampliamente utilizada por profesionales de seguridad informática y probadores de penetración para evaluar la seguridad de aplicaciones web.
 
-![Untitled](Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled%2017.png)
+![image](https://github.com/amanda1686/Auditoria/assets/80174591/018da4ad-ca55-4935-a477-6af261290333)
 
 ### Informe de Burp Suite
 
@@ -266,7 +265,8 @@ Burp Suite es una suite de herramientas de prueba de penetración utilizada prin
 
 **Análisis de Seguridad:** La imagen sugiere que se está realizando un análisis de seguridad, posiblemente revisando las solicitudes y respuestas para identificar vulnerabilidades o problemas de seguridad en la aplicación web objetivo.
 
-![Untitled](Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled%2018.png)
+![image](https://github.com/amanda1686/Auditoria/assets/80174591/cc34f48c-5ea7-4ee8-980a-238815b6928b)
+
 
 ### Análisis de Solicitud y Respuesta API
 
