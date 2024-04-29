@@ -1,6 +1,7 @@
 # Auditoría Abooks
 
-(Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled.png)
+![image](https://github.com/amanda1686/Auditoria/assets/80174591/d16c7faf-8254-45c8-a338-c7a05ca0243b)
+
 
 **Auditoría y ciberseguridad en la web** 
 
@@ -22,11 +23,13 @@ En conclusión, la combinación de auditoría y ciberseguridad en la web con Lin
 
 **nslookup** [https://abooks.onrender.com/](https://abooks.onrender.com/). Saber la IP y dominio 
 
-![Untitled](Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled%201.png)
+![image](https://github.com/amanda1686/Auditoria/assets/80174591/c7469cf3-a60a-40da-ac96-4216d38749a9)
+
 
 ## **nikto**
 
-![Untitled](Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled%202.png)
+![image](https://github.com/amanda1686/Auditoria/assets/80174591/587cc382-c8bb-4b03-9f3e-ffd307be2029)
+
 
 1. **Fecha y hora de inicio del escaneo**: El escaneo comenzó el **domingo 28 de abril de 2024 a las 07:33:14 (GMT+4)**.
 2. **IPs asociadas al objetivo**:
