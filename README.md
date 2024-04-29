@@ -21,7 +21,7 @@ En conclusión, la combinación de auditoría y ciberseguridad en la web con Lin
 4. Burpsuite
 5. Medidas de seguridad en el código
 
-**nslookup** [https://abooks.onrender.com/](https://abooks.onrender.com/). Saber la IP y dominio 
+**nslookup** [https://abooks.onrender.com/](https://abooks.onrender.com/). Conocer la IP y dominio 
 
 ![image](https://github.com/amanda1686/Auditoria/assets/80174591/c7469cf3-a60a-40da-ac96-4216d38749a9)
 
@@ -50,7 +50,7 @@ En conclusión, la combinación de auditoría y ciberseguridad en la web con Lin
 
 **curl -I** [https://abooks.onrender.com/](https://abooks.onrender.com/).El argumento **`-I`** (o **`--head`**) le indica a **`curl`** que solicite solo las cabeceras HTTP
 
-![Untitled](Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled%203.png)
+![image](https://github.com/amanda1686/Auditoria/assets/80174591/cad447fb-8e41-42e3-a461-815fb81a69fb)
 
 1. **Fecha y hora de la respuesta**: El servidor respondió a la solicitud el **domingo 28 de abril de 2024 a las 11:35:25 GMT**.
 2. **Tipo de contenido**: El contenido devuelto es de tipo **“text/html”** con codificación **UTF-8**.
@@ -61,9 +61,7 @@ En conclusión, la combinación de auditoría y ciberseguridad en la web con Lin
 7. **Servidor**: El servidor está alimentado por **Express** y protegido por **Cloudflare**.
 
 ## **whatweb IP address**
-
-![Untitled](Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled%204.png)
-
+![image](https://github.com/amanda1686/Auditoria/assets/80174591/f8f52a9d-49bd-4bc6-b11c-1cac5d7f9f07)
 - **URL:** [https://abooks.onrender.com/](https://abooks.onrender.com/)
 - **Estado de Respuesta:** 200 OK
 - **País:** Estados Unidos (UNITED STATES)
@@ -83,15 +81,15 @@ En conclusión, la combinación de auditoría y ciberseguridad en la web con Lin
 
 ## **Wappalyzer**
 
-![Untitled](Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled%205.png)
+![image](https://github.com/amanda1686/Auditoria/assets/80174591/36e03482-84f7-4f41-89de-fa2e9a243cea)
+
 
 Mediante esta herramienta podemos ver las tecnologías utilizadas.
 
 ## **Shodan**
 
-![Untitled](Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled%206.png)
-
-![Untitled](Auditori%CC%81a%20Abooks%20e213ff7d251e40688420c8c33f30d2e2/Untitled%207.png)
+![image](https://github.com/amanda1686/Auditoria/assets/80174591/1e37919f-9ce0-4e5a-aef1-a3edaf44c805)
+![image](https://github.com/amanda1686/Auditoria/assets/80174591/ef832045-8c1b-49a5-a44c-6489fd984428)
 
 ### Informe de la Dirección IP: 216.24.57.4
 
